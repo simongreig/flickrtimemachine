@@ -1,0 +1,94 @@
+# free key and secret from http://www.flickr.com/services/apps/create/apply
+#
+export FLICKR_API_KEY="6d742277929e0f153206a8af201e5962"
+export FLICKR_SECRET="1d0b18e0ccaaaecf"
+export FLICKR_USER_NAME="Your human-readable name here!"
+
+export FLICKR_FORCE_AUTH="true"
+
+export FLICKR_COOKIE_SECRET="23423gsgg3223fsdQQQ"
+
+# This can be:
+#
+# - "read" for permission level 1, giving public and private read access
+# - "write", permission level 2, giving "read" + writing permissions
+# - "delete", permission level 3, giving "write" + deletion permissions
+#
+# NOTE: if you change this value at some point, you will need to
+# request new credentials, as your access token and access token
+# secret are tied to your requested permission level.
+#
+export FLICKR_PERMISSIONS="write"
+
+# Unless you know better, keep this set to "oob", which tells flickr
+# that this code uses an "out-of-band" authentication callback.
+#
+#export FLICKR_CALLBACK="oob"
+export FLICKR_CALLBACK="http://localhost:8080/auth"
+
+# These values are commented off. When you first run the FlickrApi's
+# authentication, you will be given the actual values to use.
+#
+#export FLICKR_USER_ID=""
+#export FLICKR_ACCESS_TOKEN=
+#export FLICKR_ACCESS_TOKEN_SECRET=
+
+#export FLICKR_USER_ID="32563803@N00"
+#export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+#export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"
+
+export FLICKR_USER_ID="undefined"
+export FLICKR_ACCESS_TOKEN="undefined"
+export FLICKR_ACCESS_TOKEN_SECRET="undefined"
+
+export FLICKR_USER_ID="32563803@N00"
+export FLICKR_ACCESS_TOKEN="72157664383605270-6b80b9b5811bc842"
+export FLICKR_ACCESS_TOKEN_SECRET="1dada05b2650714f"

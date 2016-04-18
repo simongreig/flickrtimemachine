@@ -1,0 +1,28 @@
+<div class="main_content" ng-show="!details">
+  <div class="splash"><div class="splash-inner"><!--Contacting Flickr<br/>--><img src="spinner.gif" width="50px" height="50px" /></div></div>
+
+</div>
+
+<div class="main_content" ng-show="details">
+  <div class="dayheading">Flickr Time Machine {{getTodayString()}}</div>
+  <div class="header-margin"></div>
+  <div ng-repeat="year in details | orderBy:'-year'">
+    <div class="yeargroup">{{getYearsAgo(year.year)}} it was a {{getDayofWeek(year.year)}}</div>
+       <div class="photo" ng-repeat="photo in year.photos.photo">
+          <div class="imglink"><a target="_blank" href="https://www.flickr.com/photos/{{photo.owner}}/{{photo.id}}"><img src="{{photo.url_l}}"></a></div>
+          <div class="photo-details">
+            <div class="photo-title">{{photo.title}}</div>
+          </div>
+          <div class="location-details">
+            <div class="photo-time">{{photo.datetaken.substr(11,5)}}</div>
+            <div class="maplink" ng-if="photo.latitude != 0 && photo.longitude != 0">
+              <a target="_blank" href="http://www.google.com/maps/place/{{photo.latitude}},{{photo.longitude}}">{{loc[photo.id].place.woe_name}}</a>
+            </div>
+            <div class="weather-temp" ng-if="photo.latitude != 0 && photo.longitude != 0">{{weather[photo.id].temp}}</div>
+            <div class="weather-icon" ng-if="photo.latitude != 0 && photo.longitude != 0"><i class="wi {{weather[photo.id].icon}}"></i></div>
+          </div>
+       </div>
+    </div>
+</div>
+
+</div>

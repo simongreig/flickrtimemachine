@@ -1,0 +1,105 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: #fbfbfb;
+
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.main_content {
+
+}
+
+
+
+.yeargroup, .dayheading {
+  color: #fff;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  font-weight:bold;
+  width: 100%;
+}
+
+.yeargroup {
+  font-size:20pt;
+  background-color: #20a8ff;
+}
+
+.header-margin, .dayheading {
+  height:30px;
+  line-height: 30px;
+}
+
+.dayheading {
+  font-size:15pt;
+  background-color: #ff207e;
+  position:fixed;
+}
+
+.photo {
+  padding: 30px;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: 1px;
+  border-style: solid;
+  max-width: 1024px;
+  border-color: #ddd;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px #ccc;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.location-details div {
+  display: inline;
+    color: #999;
+}
+
+
+
+.location-details a:link {
+    text-decoration: none;
+    color:inherit;
+}
+
+.location-details a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+
+.location-details a:hover {
+    text-decoration: underline;
+}
+
+.location-details a:active {
+    text-decoration: underline;
+}
+
+.photo-details div {
+  display: inline-block;
+}
+
+.photo-details {
+  padding-top: 20px;
+}
+
+.photo-title {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #666;
+}
+.photo-time {
+
+}
