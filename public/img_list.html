@@ -4,10 +4,10 @@
 </div>
 
 <div class="main_content" ng-show="details">
-  <div class="dayheading">Flickr Time Machine {{getTodayString()}}</div>
+  <div  class="dayheading">Flickr Time Machine {{getTodayString()}}</div>
   <div class="header-margin"></div>
-  <div ng-repeat="year in details | orderBy:'-year'">
-    <div class="yeargroup">{{getYearsAgo(year.year)}} it was a {{getDayofWeek(year.year)}}</div>
+  <div class="year-box" ng-repeat="year in details | orderBy:'-year'">
+    <div  offset="30" confine="true"  class="yeargroup"  style="background-color: {{getBannerColour($index)}};">{{getYearsAgo(year.year)}} it was a {{getDayofWeek(year.year)}}</div>
        <div class="photo" ng-repeat="photo in year.photos.photo">
           <div class="imglink"><a target="_blank" href="https://www.flickr.com/photos/{{photo.owner}}/{{photo.id}}"><img src="{{photo.url_l}}"></a></div>
           <div class="photo-details">

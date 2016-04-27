@@ -17,7 +17,6 @@ body {
 }
 
 
-
 .yeargroup, .dayheading {
   color: #fff;
   height: 75px;
@@ -25,6 +24,7 @@ body {
   text-align: center;
   font-weight:bold;
   width: 100%;
+  white-space: nowrap;
 }
 
 .yeargroup {
@@ -41,6 +41,7 @@ body {
   font-size:15pt;
   background-color: #ff207e;
   position:fixed;
+  z-index:1000;
 }
 
 .photo {
