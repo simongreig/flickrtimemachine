@@ -22,5 +22,8 @@
   "repository": {},
   "engines": {
     "node": "4.2.x"
+  },
+  "devDependencies": {
+    "grunt-nsp": "^2.3.1"
   }
 }

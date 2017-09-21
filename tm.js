@@ -2,6 +2,8 @@
 
 console.log ("Running in NODE_ENV=" + process.env.NODE_ENV);
 
+console.log ("Test env variable=", process.env.HELLO);
+
 const express = require('express');
 var cookieSession = require('cookie-session');
 var Grant = require('grant-express');
